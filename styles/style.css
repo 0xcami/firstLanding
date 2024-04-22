@@ -45,13 +45,13 @@ h1.prompt-bold{
 h2.copy{
     font-size: 36px;
     margin: 0;
-    padding: auto;
+    padding: 5px;
     color: #F20519;
 }
 
 h2.prompt-bold{
     font-size: 36px;
-    padding: 0px 0px 0px 10px;
+    padding: 20px 0px 20px 20px;
     color: #404040;
 }
 
@@ -67,7 +67,7 @@ h4.gallery-item-price{
 
 
 p.prompt-regular{
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 20px 20px;
     font-size: 28px;
 }
 
@@ -115,14 +115,15 @@ p.prompt-regular{
     width: 100%;
     height: 100%;
     aspect-ratio: 2/3;
+    border-radius: 15px;
     /* border-radius:10%/6%; */
     object-fit: cover;
 }
 
 .footer-style{
     text-align: center;
-    background: black;
-    color: #FFFFFF;
+    background: #00000050;
+    color: #F20519;
 }
 
 
